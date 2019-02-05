@@ -5,25 +5,14 @@ import java.util.Scanner;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Main
+public class GuessingGame
 {
     /**
      * Constructor for objects of class Main
      */
-    public Main()
+    public GuessingGame()
     {
-        
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public void guessingGame()
-    {
-      int attempts = 1;
+      int attempts = 0;
       int random = (int)(Math.random() * (10 - 1) + 1);
       int guess; 
       int lastGuess = 99;
@@ -46,6 +35,6 @@ public class Main
               attempts = attempts + 1;
          } 
         } 
-     System.out.println(guess + " is correct! It took you " + attempts + " guesses");
-}
+     System.out.println(guess + " is correct! You were wrong " + attempts + " times");
+    }
 }
