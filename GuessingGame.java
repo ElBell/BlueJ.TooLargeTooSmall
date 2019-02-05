@@ -8,10 +8,12 @@ import java.util.Scanner;
 public class GuessingGame
 {
     /**
-     * Constructor for objects of class Main
+     * Constructor for objects of class GuessingGame
      */
-    public GuessingGame()
+    public void main()
     {
+    }
+    public void playGame() {
       int attempts = 0;
       int random = (int)(Math.random() * (10 - 1) + 1);
       int guess; 
