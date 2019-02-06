@@ -37,6 +37,6 @@ public class GuessingGame
               attempts = attempts + 1;
          } 
         } 
-     System.out.println(guess + " is correct! You were wrong " + attempts + " times");
+      System.out.println(guess + " is correct! You were wrong " + attempts + " times");
     }
 }
